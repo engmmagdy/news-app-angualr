@@ -1,25 +1,22 @@
 /* app css stylesheet */
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
 }
 
-.menu:before {
-  content: "[";
+.featurette-divider {
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
 }
 
-.menu:after {
-  content: "]";
+/* Thin out the marketing headings */
+.news-list-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
 }
 
-.menu > li {
-  display: inline;
-}
-
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
+.news-list-images {
+  width: 150px;
+  height: 150px;
 }

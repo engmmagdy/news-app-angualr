@@ -1,0 +1,26 @@
+[
+  {
+    "id": "instagram-became-most-used-app",
+    "title": "How Instagram became the most-used app on my phone",
+    "description": "Instagram announced yesterday that it crossed a whopping 700 million users. That's fantastic, especially when you consider that it signed up 100 million people in just five months. ...",
+    "url": "https://thenextweb.com/apps/2017/04/27/why-instagram-is-my-favorite-app-right-now/",
+    "urlToImage": "images/news/instagram-became-most-used-app.jpg",
+    "publishedAt": "2017-04-27T13:14:37Z"
+  },
+  {
+    "id": "fb-says-gov-requests-information",
+    "title": "Facebook says government requests for your information are on the rise",
+    "description": "Facebook revealed today that it's receiving more government information requests than ever before -- but that it's also taking less content down.\r\n\r\nThe company today released its ...",
+    "url": "https://thenextweb.com/facebook/2017/04/27/facebook-says-government-requests-information-rise/",
+    "urlToImage": "images/news/fb-says-gov-requests-information.jpg",
+    "publishedAt": "2017-04-27T21:00:13Z"
+  },
+  {
+    "id": "fcc-thinks-throttling-not-hurt-consumers",
+    "title": "FCC thinks throttling doesn’t hurt consumers",
+    "description": "The Federal Communications Commission today released the draft of its Notice of Proposed Rulemaking which would alter existing net neutrality rules. In it, the FCC outlines what it ...",
+    "url": "https://thenextweb.com/politics/2017/04/28/fcc-thinks-throttling-doesnt-hurt-consumers/",
+    "urlToImage": "images/news/fcc-thinks-throttling-not-hurt-consumers.jpg",
+    "publishedAt": "2017-04-28T01:17:16Z"
+  }
+]

@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <!--Sidebar content-->
+
+            <p>
+                Search:
+                <input ng-model="$ctrl.query" />
+            </p>
+
+            <p>
+                Sort by:
+                <select ng-model="$ctrl.orderProp">
+                    <option value="-publishedAt">Most Recent</option>
+                    <option value="title">Alphabetical</option>
+                </select>
+            </p>
+        </div>
+
+        <div class="col-md-10">
+            <div ng-repeat="news in $ctrl.allNews | orderBy:$ctrl.orderProp | filter: $ctrl.query">
+                <hr class="featurette-divider">
+
+                <div class="row">
+                    <div class="col-md-9">
+                        <h2 class="news-list-heading">{{news.title}}</h2>
+                        <p>{{news.description}}</p>
+                        <p>Published at: {{news.publishedAt | date: 'medium'}}</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img ng-src="{{news.urlToImage}}" alt="{{news.id}}" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
