@@ -1,7 +1,7 @@
 //jshint strict: false
 exports.config = {
 
-  allScriptsTimeout: 11000,
+  allScriptsTimeout: 21000,
 
   specs: [
     '*.js'

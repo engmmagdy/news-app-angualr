@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="text-center">
+        <h1>{{$ctrl.news.title}}</h1>
+        <span>Author: {{$ctrl.news.author}}</span> <span>Published at: {{$ctrl.news.publishedAt | date: 'medium'}}</span>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-4">
+            <img ng-src="{{$ctrl.news.urlToImage}}" alt="{{$ctrl.news.title}}" class="img-responsive">
+        </div>
+
+    </div>
+    <div>
+        <p>{{$ctrl.news.description}}</p>
+        <hr>
+    </div>
+
+    <div class="text-center">
+        <a href="{{$ctrl.news.url}}" target="_self" class="btn btn-primary">
+            Check Source
+        </a>
+        <button class="btn btn-default" ng-click="$ctrl.handleClickBack()">Back</button>
+
+    </div>
+
+</div>

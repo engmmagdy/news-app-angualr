@@ -6,9 +6,10 @@ angular.
     component('newsList', {
         templateUrl: 'news-list/news-list.template.html',
         controller: ['GetNews',
-            function (GetNews) {
-                this.allNews = GetNews.queryAll();
-                this.orderProp = '-publishedAt';
+            function NewsListController(GetNews) {
+                var self = this;
+                self.allNews = GetNews.queryAll();
+                self.orderProp = '-publishedAt';
             }
 
         ]

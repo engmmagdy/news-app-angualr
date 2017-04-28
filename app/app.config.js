@@ -11,8 +11,8 @@ config(['$locationProvider' ,'$routeProvider',
         when('/news-list', {
             template: '<news-list></news-list>'
         }).
-        when('/news/:newsId', {
-            template: ''
+        when('/news-detail/:newsId', {
+            template: '<news-detail></news-detail>'
         }).
         otherwise('/news-list');
     }

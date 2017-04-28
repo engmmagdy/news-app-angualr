@@ -4,6 +4,7 @@
 angular.module('newsApp', [
     'ngRoute',
     'core',
-    'newsList'
+    'newsList',
+    'newsDetail'
 ]);
 

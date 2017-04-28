@@ -23,12 +23,14 @@
 
                 <div class="row">
                     <div class="col-md-9">
-                        <h2 class="news-list-heading">{{news.title}}</h2>
+                            <h2 class="news-list-heading">{{news.title}}</h2>
                         <p>{{news.description}}</p>
                         <p>Published at: {{news.publishedAt | date: 'medium'}}</p>
                     </div>
                     <div class="col-md-3">
-                        <img ng-src="{{news.urlToImage}}" alt="{{news.id}}" class="img-responsive" />
+                        <a href="#!/news-detail/{{news.id}}">
+                            <img ng-src="{{news.urlToImage}}" alt="{{news.id}}" class="img-responsive" />
+                        </a>
                     </div>
                 </div>
             </div>
